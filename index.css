@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Jura:wght@300..700&family=Permanent+Marker&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+   /* background-color: rgb(165, 160, 160);*/
+   background-image: url(neon.gif) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    width:250px;  
+    font-family: "Roboto Slab", serif;
+    height: 100vh;
+   
+
+   }
+.sidebar nav{
+    padding: 15px ;
+    font-weight: bold;
+    margin-top: 95px;
+
+    
+    
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+    
+  
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(235, 238, 222);
+   font-weight: bolder;
+}
+
+.main{
+    /*background-color: blue;*/
+    width: 88vw ;
+    height: 100vh;
+  background-image: url(circle.gif);
+}
+    
+.container{
+    display: flex;
+}
+.info{
+   /* background-color: blueviolet;*/
+    height:63vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+   
+}
+
+
+img{
+    
+   
+    width: 60vh;
+    position: relative;
+  margin-top: 30px;
+    
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    
+font-size: 30px;
+}
+.name{
+     font-family: "Roboto Slab", serif;;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+
+}
+.about{font-size: 40px;
+    padding-left: 20px;
+}
+.moreabout{
+    font-size:19px;
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;
+    word-spacing: 5px;
+}
+
+
+
+
+
+
+.buttons button{
+ border-radius: 100px;
+ font-size: 13px;
+color: rgba(247, 244, 244, 0.966);
+font-weight: bolder;
+margin-right: 3vw;  
+margin-top: 8vh;
+height: 3vw ;
+width: 10vw;
+background-color: rgba(0, 0, 0, 0.603);
+border: 2px solid #0ff; /* Neon border color */
+text-transform: uppercase;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+transition: all 0.3s ease;
+box-shadow: 
+  0 0 10px rgb(214, 214, 214), 
+  0 0 20px rgb(179, 179, 179), 
+  0 0 40px rgb(106, 117, 117), 
+  0 0 80px rgb(40, 43, 43); 
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.contactform {
+    font-family: "Roboto Slab", serif;
+   padding-top: 140px;
+   padding:  34px;
+  
+    
+    
+   
+
+    
+}
+
+.contactform h1{
+   font-family: "Roboto Slab", serif;
+   text-align: center;
+  
+       
+        
+    }
+
+.contactform form  div{
+    padding: 8px  0;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    margin-right: -33;
+    
+    }
+.contactform form  div input{
+    width: 22vw;
+    border-radius: 5px;
+    padding: 3px;
+    
+
+    
+    }
+    .form-check-label{
+        margin-right: -33px;
+    }
+
+
+
+.button1{
+
+    height: 25px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(94, 78, 236);
+    margin-top: 12px;
+   font-family: "Roboto Slab", serif;
+   color: white;
+   cursor: pointer;
+    
+}
+.button1:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    font-size: 20px;
+   
+}
+
+
+#emailHelp {
+font-size: 10px;
+color: midnightblue;
+margin: 0 5px;
+
+}
+
+#form-check{
+
+    flex-direction: row;
+
+
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.blogitem{
+
+margin: 20px;
+font-family:   "Bona Nova SC", serif;
+
+}
+
+.blogcontainer h1{
+    font-family:   "Bona Nova SC", serif;
+    margin: 20px;
+
+}
+
+.blogitem p{
+    font-family:   "Bona Nova SC", serif;
+}
+    
+.blogbtn{
+background-color: aqua;
+border-radius: 5px;
+font-size: 10px;
+height: 20px;
+width: 60px;
+cursor: pointer;
+
+}
+
+.blogbtn:hover{
+ color: rgb(247, 247, 248);
+ background-color: blue;
+
+
+}
+
+
+
+
+
+
+
+.intro h2{
+ font-family:    "Roboto Slab", serif;
+ margin: 12px;
+
+}
+
+
+.intro p{
+   font-family:"Roboto Slab", serif;
+   margin: 12px;
+}
+
+.skill{ margin: 5px;
+    width: 500px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(1, 248, 1);
+}
+.skill2{ margin: 5px;
+    
+    
+    width: 400px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(96, 228, 124);
+}
+.skill3{ margin: 5px;
+    
+    
+    width: 200px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(241, 252, 93);
+}
+.skill4{
+     margin: 5px;
+    
+    width: 50px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(243, 139, 70);
+}
+.skill5{
+     margin: 5px;
+    
+    width: 50px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(243, 139, 70);
+}
+.skill6{
+     margin: 5px;
+    
+    width: 200px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(238, 252, 48);
+}
+.skill7{
+     margin: 5px;
+    
+    width: 200px;
+    height: 8px;
+    border-color: white;
+    background-color: white;
+  margin: 50x;
+  background-color: rgb(238, 252, 48);
+}
+.skill8{
+    margin: 5px;
+   
+   width: 200px;
+   height: 8px;
+   border-color: white;
+   background-color: white;
+ margin: 50x;
+ background-color: rgb(238, 252, 48);
+}
+
+.skillcontainer{
+    color: white;
+    padding: 15px;
+}
+.intro{
+    color: white;
+}
+.items{
+    display: flex;
+}
+
+@media (max-width:1650){
+    *{
+        background-color: red;
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+
+}
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.project {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0);
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+.project img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.project:hover {
+    transform: scale(1.05);
+}
+.project a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
